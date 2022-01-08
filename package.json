@@ -1,0 +1,21 @@
+{
+  "name": "cz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "esm": "^3.2.25",
+    "execa": "^6.0.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
