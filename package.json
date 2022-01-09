@@ -1,22 +1,23 @@
 {
   "name": "cz",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "rough commitizen.",
+  "main": "src/main.js",
+  "bin": {
+    "cz": "src/main.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "commitizen",
+    "cz"
+  ],
+  "author": "uNickHow",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.0.0",
-    "esm": "^3.2.25",
-    "execa": "^6.0.0",
+    "chalk": "^4.1.0",
+    "execa": "^5.1.0",
     "prompts": "^2.4.2"
   },
   "devDependencies": {
-    "parcel": "^2.1.1",
     "rimraf": "^3.0.2"
   }
 }
