@@ -1,38 +1,4 @@
-# CZ
-simple commit tool for instantly use, choose a type and get to the point.
-
-## Installation
-```bash
-npm install -g unickhow/cz
-# or
-yarn add -g unickhow/cz
-# or
-pnpm install -g unickhow/cz
-# or
-bun add -g unickhow/cz
-```
-
-## Uninstall
-```bash
-npm uninstall -g cz
-# or
-yarn remove -g cz
-# or
-pnpm uninstall -g cz
-# or
-bun remove -g cz
-```
-
-## Usage
-
-```bash
-cz
-```
-
-## Types
-
-```json
-[
+export default [
   {
     "name": "chore",
     "emoji": "🧹",
@@ -100,8 +66,3 @@ cz
     "value": "test"
   }
 ]
-```
-
-## Todo
-- [x] bundler
-- [ ] test
