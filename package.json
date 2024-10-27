@@ -16,7 +16,7 @@
     "commitizen",
     "cz"
   ],
-  "author": "unickhow <unickhow@gmail.com>",
+  "author": "unickhow <unick.zhow@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "execa": "^5.1.0",

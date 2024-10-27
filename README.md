@@ -8,6 +8,8 @@ npm install -g unickhow/cz
 yarn add -g unickhow/cz
 # or
 pnpm install -g unickhow/cz
+# or
+bun add -g unickhow/cz
 ```
 
 ## Uninstall
@@ -17,6 +19,8 @@ npm uninstall -g cz
 yarn remove -g cz
 # or
 pnpm uninstall -g cz
+# or
+bun remove -g cz
 ```
 
 ## Usage
@@ -99,5 +103,5 @@ cz
 ```
 
 ## Todo
-- [ ] bundler
+- [x] bundler
 - [ ] test
