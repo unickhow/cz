@@ -1,6 +1,6 @@
 {
   "name": "@unickhow/cz",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Rough commitizen in Rust",
   "bin": {
     "cz": "./bin/cz.js"

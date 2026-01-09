@@ -1,26 +1,30 @@
 # CZ
 simple commit tool for instantly use, choose a type and get to the point.
 
+> **Note**: This CLI has been rewritten in Rust for better performance!
+
 ## Installation
+
 ```bash
-npm install -g unickhow/cz
+npm install -g @unickhow/cz
 # or
-yarn add -g unickhow/cz
+yarn global add @unickhow/cz
 # or
-pnpm install -g unickhow/cz
+pnpm add -g @unickhow/cz
 # or
-bun add -g unickhow/cz
+bun add -g @unickhow/cz
 ```
 
 ## Uninstall
+
 ```bash
-npm uninstall -g cz
+npm uninstall -g @unickhow/cz
 # or
-yarn remove -g cz
+yarn global remove @unickhow/cz
 # or
-pnpm uninstall -g cz
+pnpm remove -g @unickhow/cz
 # or
-bun remove -g cz
+bun remove -g @unickhow/cz
 ```
 
 ## Usage
@@ -59,7 +63,7 @@ cz
   },
   {
     "name": "fix",
-    "emoji": "🪲",
+    "emoji": "🐞",
     "description": "A bug fix",
     "value": "fix"
   },
@@ -71,7 +75,7 @@ cz
   },
   {
     "name": "perf",
-    "emoji": "⚡",
+    "emoji": "⚡️",
     "description": "A code change that improves performance",
     "value": "perf"
   },
@@ -102,6 +106,14 @@ cz
 ]
 ```
 
-## Todo
-- [x] bundler
-- [ ] test
+## Development
+
+Requires [Rust](https://www.rust-lang.org/tools/install) installed.
+
+```bash
+# Run locally
+cargo run
+
+# Build release
+cargo build --release
+```

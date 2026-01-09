@@ -1,12 +1,17 @@
 #!/usr/bin/env node
 
+const fs = require('fs');
 const { spawn } = require('child_process');
 const path = require('path');
 const os = require('os');
 
 // The install script puts the binary in ../vendor/cz (or cz.exe)
 const binaryName = os.platform() === 'win32' ? 'cz.exe' : 'cz';
-const binaryPath = path.join(__dirname, '../vendor', binaryName);
+
+// Resolve the real path of this script to handle symlinks (e.g. pnpm)
+const realScriptPath = fs.realpathSync(__filename);
+const packageRoot = path.join(path.dirname(realScriptPath), '..');
+const binaryPath = path.join(packageRoot, 'vendor', binaryName);
 
 const child = spawn(binaryPath, process.argv.slice(2), { stdio: 'inherit' });
 
