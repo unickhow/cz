@@ -1,0 +1,23 @@
+{
+  "name": "cz-cli-rust",
+  "version": "3.0.0",
+  "description": "Rough commitizen in Rust",
+  "bin": {
+    "cz": "./bin/cz.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unickhow/cz.git"
+  },
+  "files": [
+    "bin",
+    "scripts",
+    "package.json",
+    "README.md"
+  ],
+  "author": "unickhow",
+  "license": "MIT"
+}
