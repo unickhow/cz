@@ -18,7 +18,7 @@ const child = spawn(binaryPath, process.argv.slice(2), { stdio: 'inherit' });
 child.on('error', (err) => {
   if (err.code === 'ENOENT') {
     console.error(`Error: Could not find the binary at ${binaryPath}.`);
-    console.error('Please try reinstalling the package: npm install -g unickhow/cz');
+    console.error('Please try reinstalling the package: npm install -g @unickhow/cz');
   } else {
     console.error('Error executing binary:', err);
   }

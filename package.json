@@ -1,9 +1,12 @@
 {
   "name": "@unickhow/cz",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Rough commitizen in Rust",
   "bin": {
     "cz": "./bin/cz.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "postinstall": "node scripts/install.js"
