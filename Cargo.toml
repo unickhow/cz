@@ -1,0 +1,10 @@
+[package]
+name = "cz"
+version = "3.0.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.54", features = ["derive"] }
+console = "0.16.2"
+inquire = "0.9.1"
